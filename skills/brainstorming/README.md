@@ -1,4 +1,4 @@
-# Brainstorming Facilitator — Claude Code Skill
+# BMAD Brainstorming Facilitator — Claude Code Skill
 
 A structured brainstorming facilitator skill for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that guides interactive ideation sessions using 60+ creative techniques across 10 categories.
 
