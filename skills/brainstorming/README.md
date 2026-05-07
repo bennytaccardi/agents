@@ -17,11 +17,14 @@ A structured brainstorming facilitator skill for [Claude Code](https://docs.anth
 Copy the `brainstorming/` folder into your Claude Code skills directory:
 
 ```bash
-# Option 1: Clone and copy
+# Option 1: use npx
+npx skills add https://github.com/bennytaccardi/agents/tree/main/skills/brainstorming
+
+# Option 2: Clone and copy
 git clone https://github.com/bennytaccardi/agents.git
 cp -r agents/skills/brainstorming ~/.claude/skills/
 
-# Option 2: Clone directly into skills
+# Option 3: Clone directly into skills
 git clone https://github.com/bennytaccardi/agents.git /tmp/agents-skill
 cp -r /tmp/agents-skill/skills/brainstorming ~/.claude/skills/
 rm -rf /tmp/agents-skill
